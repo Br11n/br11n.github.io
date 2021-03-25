@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Шапка<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.header{
+position: absolute;
+height: 190px;
+margin:0;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(90deg, #FEFFCE 12.5%, #F5DC55 100%)
+/*=================================================Лого-шапки==================================================*/
+}
+.logo-head{
+  display: block;
+  width: 235px;
+  height: 179px;
+
+  position: absolute;
+  left: 10px;
+  right: 82.81%;
+  top: 0%;
+  bottom: 0%;
+
+background: url(20210321_192249.png);
+/*=================================================Текст-шапки=================================================*/
+}
+.logo-text{
+position: absolute;
+left: 17.19%;
+right: 73.28%;
+top: 22.63%;
+bottom: 22.63%;
+
+font-family: Archivo Black;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 54px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
